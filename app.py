@@ -447,7 +447,7 @@ if uploaded_file is not None:
     original_size_kb  = len(original_bytes) / 1024
 
     if run:
-        # KMeans compression (from your notebook logic) 
+        #KMeans compression
         progress_bar = st.progress(0, text="Reading pixels...")
         time.sleep(0.2)
 
@@ -464,7 +464,7 @@ if uploaded_file is not None:
 
         compressed_pil = Image.fromarray(new_image_array)
 
-        # Save 
+        # Save
         fmt = output_format.upper()
         buf = io.BytesIO()
         save_kwargs = {"format": fmt}
