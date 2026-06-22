@@ -41,9 +41,7 @@ This is not a deep learning model. It is unsupervised machine learning applied d
 | Compressed Colors (K=16) | 16 |
 | Color Reduction | 99.99% |
 
-The model reduced a 8 MB image to under 2 MB using just 16 colors — no quality settings, no deep learning just math
-
----
+The model reduced a 8 MB image to under 2 MB using just 16 colors no quality settings no deep learning just math
 
 ## Features
 
@@ -89,4 +87,4 @@ What surprised me was how well it works Reducing 245,898 colors to just 16 and s
 
 ---
 
-*Unsupervised learning. No labels. No training data. Just math on pixels.*
+Unsupervised learning. No labels. No training data. Just math on pixels
